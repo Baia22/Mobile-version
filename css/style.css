@@ -9,7 +9,7 @@ ul {
    justify-content:space-between;
 }
 
-.img1 {
+.img1, .img11 {
     width:60px;
 
 }
@@ -17,6 +17,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:95%;
+    margin:5px auto;
 }
 .search {
     width:20px;
@@ -28,4 +30,101 @@ ul {
 .main-photo {
     margin:0 auto;
     width:95%;
+}
+
+.first-section {
+    margin:20px auto;
+    width:95%;
+}
+.articles {
+    justify-content: space-between;
+    display: flex;
+    width:100%;
+    margin-top:40px;
+}
+.img-article1, .img-article2, .img-article3, .img-article4, .img-article5, .img-article6 {
+    width:100%;
+    
+}
+.article1, .article2, .article3, .article4, .article5, .article6  {
+    width:400px;
+    height:563px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+p {
+    font-size: 10px;
+    width:100%;
+    margin-top:10px;
+}
+.more {
+    border:none;
+    float:right;
+    margin-top:200px;
+    margin-right:10px;
+    color: black;  
+    transition-duration: 1s;
+     cursor: pointer;
+}
+.more :hover {
+    background-color: #e7e7e7;
+}
+.load-more {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.second-section {
+    margin:20px auto;
+    width:95%;
+}
+.articles2 {
+        justify-content: space-between;
+        display: flex;
+        width:100%;
+        margin-top:40px;
+}
+.end {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:95%;
+    margin:0 auto;
+}
+.load-more1 {
+    display:none;
+}
+
+@media (max-width:480px) {
+    .articles, .articles2 {
+        display:block;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    nav {
+        display: none;
+    }
+    .img11 {
+        display: none;
+    }
+    .search {
+        display: flex;
+    }
+    .end {
+        display: block;
+    }
+    .load-more1 {
+        display:block;
+        justify-content: center;
+        text-align: center;
+        margin-top:40px;
+    }
+    ul {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        flex-wrap: wrap;
+    }
 }
