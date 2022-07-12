@@ -1,0 +1,31 @@
+.whole-tab {
+    max-width:1920px;
+    width:100%;
+    margin:0 auto;
+}
+ul {
+   display: flex;
+   width:800px;
+   justify-content:space-between;
+}
+
+.img1 {
+    width:60px;
+
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search {
+    width:20px;
+    height:20px;
+}
+.main-img {
+    width:100%;
+}
+.main-photo {
+    margin:0 auto;
+    width:95%;
+}
