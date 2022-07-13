@@ -41,6 +41,7 @@ ul {
     display: flex;
     width:100%;
     margin-top:40px;
+    flex-wrap: wrap;
 }
 .img-article1, .img-article2, .img-article3, .img-article4, .img-article5, .img-article6 {
     width:100%;
@@ -83,6 +84,7 @@ p {
         display: flex;
         width:100%;
         margin-top:40px;
+        flex-wrap: wrap;
 }
 .end {
     background-color: grey;
@@ -95,12 +97,14 @@ p {
 .load-more1 {
     display:none;
 }
+.last-photo {
+    width:46px;
+    height:16px;
+}
 
 @media (max-width:480px) {
     .articles, .articles2 {
-        display:block;
         justify-content: center;
-        flex-wrap: wrap;
     }
     nav {
         display: none;
@@ -110,6 +114,7 @@ p {
     }
     .search {
         display: flex;
+        justify-content: end;
     }
     .end {
         display: block;
